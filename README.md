@@ -7,7 +7,7 @@ iverilog, gtkwave (optional)
 ## Implementation
 
 ### Half Adder
-Half Adder has the following outputs— Sum and Carry given by:
+Half Adder has the following outputs— Sum and Carry given by
 
 $$
 \begin{aligned}
@@ -28,6 +28,8 @@ With the Truth table being:
 |1|1|0|1|
 
 Navigate to Current Directory and execute the follwing for <u>**linux shell**</u>:
+
+Download the Repo/Files and then follow these instruction
 
 ```shell
 iverilog -o halfadd halfadder.v testbenchhalf.v
