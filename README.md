@@ -7,7 +7,7 @@ iverilog, gtkwave (optional)
 ## Implementation
 
 ### Half Adder
-Half Adder has the following outputs— Sum and Carry given by:-
+Half Adder has the following outputs— Sum and Carry given by:
 
 $$
 \begin{aligned}
@@ -40,6 +40,7 @@ gtkwave Halfadder.vcd #optional
 
 ### Full Adder
 Full Adder outputs are as follows:
+
 $$
 \begin{aligned}
 &\text{Sum}= A \oplus B \oplus Cin \\
@@ -61,6 +62,7 @@ Truth table for Full Adder
 |1|1|1|1|1|0|
 
 But we can make a more efficient version (For VLSI Circuits, less complexxity for NAND/NOR gates) using
+
 $$
 \begin{aligned}
 &\overline{Cout} = \overline{A \cdot B + B \cdot Cin + A \cdot Cin} \\
@@ -80,7 +82,7 @@ gtkwave Fulladder.vcd #optional
 ```
 > Files created from the above commands: `fulladd` & `Fulladder.vcd` in the cwd/pwd
 
-Thank You
+Thank You\
 alphanumeric9
 
 > "Never stop learning. Those who stop learning, stop living." - Prime Newtons @ YouTube
