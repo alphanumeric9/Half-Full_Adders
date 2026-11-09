@@ -27,9 +27,9 @@ With the Truth table being:
 |1|0|1|0|
 |1|1|0|1|
 
-Navigate to Current Directory and execute the follwing for <u>**linux shell**</u>:
+Download the Repo/Files and then follow these instructions
 
-Download the Repo/Files and then follow these instruction
+Navigate to Current Directory and execute the follwing for <u>**linux shell**</u>:
 
 ```shell
 iverilog -o halfadd halfadder.v testbenchhalf.v
@@ -73,6 +73,8 @@ $$
 $$
 
 But for the sake of simplicity and fast output, i will assume that verilog is already efficient with multi XOR operations— will stick to the previous equation.
+
+Download the Repo/Files and then follow these instructions
 
 Navigate to Current Directory and execute the follwing for <u>**linux shell**</u>:
 ```shell
